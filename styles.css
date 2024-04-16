@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; 
+    color: #fff; 
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.dark-header {
+    background-color: #070e16;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ff6347;
+}
+
+.hero {
+    background-image: url('burger shop/burger-hero-image.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.container i {
+    display: none;
+}
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ff6347;
+}
+.main{
+    display: flex;
+    background-color: #070e16;
+}
+.main_1{
+    margin: 10vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+.main_1 h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.main_1 p{
+    margin-bottom: 30px;
+}
+.main_2 img{
+    height: 80vh;
+}
+.main_2{
+    font-size: 1.5em;
+    margin: 20px;
+}
+.btn{
+    padding: 10px 10px;
+    border-radius: 7px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn:hover{
+    background-color: #ff6347;
+}
+.main_menu{
+    display: flex;
+    justify-content: center;
+}
+.menu_item{
+    max-width: 300px;
+    margin: 0 20px;
+    text-align: start;
+}
+.menu img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.menu h3{
+    margin: 20px 0;
+}
+.menu {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #070e16;
+}
+.menu h1{
+    margin-bottom: 20vh;
+    font-size: 2em;
+}
+@media screen and (max-width: 891px) {
+    .dark-header{
+        width: 150vh;
+    }
+    .logo img{
+        width: 120px;
+    }
+    nav ul li{
+        font-size: 1.2rem;
+    }
+    .cta-btn{
+        font-size: 1.2rem;
+    }
+    .container i {
+        display: none;
+    }
+}
+@media screen and (max-width: 320px) {
+    .dark-header{
+        width: 128vh;
+    }
+    .logo img{
+        width: 250px;
+    }
+    nav ul li{
+        display: none;
+    }
+    .container i {
+        display: inline;
+        margin-right: 0.5em;
+        font-size: 6.5em;
+    }
+    .container button{
+        display: none;
+    }
+    .hero{
+        width: 52em;
+    }
+    .hero-content h1{
+        max-width: 5em;
+        text-align: start;
+        font-size: 5em;
+    }
+    .hero-content p{
+        font-size: 2.5em;
+        max-width: 7em;
+        text-align: start;
+        margin-top: 30px;
+    }
+    .main{
+        width: 52em;
+        display: flex;
+        flex-direction: column;
+    }
+    .main_1 h1{
+        font-size: 5em;
+        text-align: start;
+        padding-right: 20px;
+    }
+    .main_1 p{
+        font-size: 2.5em;
+    }
+    .main_1 button{
+        font-size: 2.5em;
+    }
+    .main_2 img{
+        display: block;
+        margin: auto;
+    }
+}
