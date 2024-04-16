@@ -161,7 +161,7 @@ nav ul li a {
     margin-bottom: 20vh;
     font-size: 2em;
 }
-@media screen and (max-width: 891px) {
+/* @media screen and (max-width: 891px) {
     .dark-header{
         width: 150vh;
     }
@@ -177,7 +177,7 @@ nav ul li a {
     .container i {
         display: none;
     }
-}
+} */
 @media screen and (max-width: 426px) {
     .dark-header{
         width: 128vh;
