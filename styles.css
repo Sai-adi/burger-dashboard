@@ -178,7 +178,7 @@ nav ul li a {
         display: none;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
     .dark-header{
         width: 128vh;
     }
