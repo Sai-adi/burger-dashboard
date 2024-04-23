@@ -11,7 +11,7 @@ body {
     color: #fff; 
 }
 
-.container {
+/*.container {
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -178,7 +178,7 @@ nav ul li a {
         display: none;
     }
 } */
-@media screen and (max-width: 426px) {
+/* @media screen and (max-width: 426px) {
     .dark-header{
         width: 128vh;
     }
@@ -229,5 +229,151 @@ nav ul li a {
     .main_2 img{
         display: block;
         margin: auto;
+    }
+}
+@media screen and (max-width: 715px) {
+    nav ul li{
+        display: none;
+    }
+    .logo {
+        margin-left: 10rem;
+        margin-right: auto;
+    }
+    .bars i {
+        display: block;
+        font-size: 2.5em;
+    }
+}  */
+
+.container{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.dark-header{
+    background-color: #070e16;
+}
+.logo img{
+    width: 100px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.bars{
+    display: none;
+}
+.cta-btn{
+    padding: 10px 20px;
+    border-radius: 1px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff7f50;
+    color: #fff;
+    font-weight:200;
+    transition: background-color 0.3s ease;
+}
+.cta-btn:hover{
+    background-color: #fff;
+    color: #ff7f50;
+}
+.cta-btn-1{
+    padding: 10px 20px;
+    border-radius: 1px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff7f50;
+    color: #fff;
+    font-weight:200;
+    transition: background-color 0.3s ease;
+}
+.cta-btn-1:hover{
+    background-color: #fff;
+    color: #ff7f50;
+}
+.hero{
+    background-image: url('burger\ shop/burger-hero-image.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    text-align: center;
+    color: #fff;
+}
+.hero-content h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+@media screen and (max-width:786px) {
+    .dark-header{
+        background-color: #070e16;
+    }
+    nav ul li{
+            display: none;
+    }
+    .logo{
+        margin: auto;
+    }
+    .bars{
+        display: inline;
+        font-size: 25px;
+    }
+    .hero{
+        background-image: none;
+        background-color: #070e16;
+    }
+    .hero-content{
+        text-align: center;
+        padding: 3em;
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width:426px) {
+    .dark-header{
+        background-color:#070e16;
+    }
+    .cta-btn{
+        display: none;
+    }
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .logo img{
+        margin-right: 10em;
+    }
+    .bars{
+        font-size: 25px;
+    }
+    .cta-btn-1{
+        display: block;
+        margin: 0 auto;
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hero{
+        background-color: #070e16;
     }
 }
