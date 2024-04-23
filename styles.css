@@ -328,10 +328,15 @@ nav ul li a{
         background-color: #070e16;
     }
     nav ul li{
-            display: none;
+        display: none;
     }
     .logo{
-        margin: auto;
+        margin: 0 auto;
+    }
+    .logo img{
+        align-items: center;
+        justify-content: center;
+        w
     }
     .bars{
         display: inline;
@@ -340,6 +345,7 @@ nav ul li a{
     .hero{
         background-image: none;
         background-color: #070e16;
+        height: 65vh;
     }
     .hero-content{
         text-align: center;
